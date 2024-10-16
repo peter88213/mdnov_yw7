@@ -1,0 +1,6 @@
+/src/locale/
+/test/work/
+/test/mdnove_yw7.py
+/build/
+*.pyc
+*.bak
