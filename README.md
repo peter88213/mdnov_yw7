@@ -31,6 +31,10 @@ information may be lost during the conversion process.
 - *mdnovel* plot points are converted to *yWriter* "Todo" scenes.  
 - *mdnovel* plot line notes are lost.  
 
+## Feedback
+
+Post a message in the [mdnovel discussions forum](https://github.com/peter88213/mdnovel/discussions/).
+
 ## License
 
 This is Open Source software, and *mdnov_yw7* is licensed under GPLv3. See the
