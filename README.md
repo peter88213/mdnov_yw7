@@ -1,6 +1,10 @@
 # mdnov_yw7
 
-Converter between .mdnov and .yw7 file format
+Converter between .mdnov and .yw7 file format.
+
+This is a command line tool for migrating novel projects between 
+[mdnovel](https://github.com/peter88213/mdnovel) and
+[yWriter](https://spacejock.com/yWriter7.html).
 
 ## Requirements
 
