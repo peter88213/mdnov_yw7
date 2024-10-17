@@ -39,9 +39,9 @@ from mdnvlib.novx_globals import _
 from mdnvlib.novx_globals import list_to_string
 from mdnvlib.novx_globals import norm_path
 from mdnvlib.novx_globals import string_to_list
-from mdnvlib.xml.xml_filter import strip_illegal_characters
-from mdnvlib.xml.xml_indent import indent
 import xml.etree.ElementTree as ET
+from yw7lib.xml_filter import strip_illegal_characters
+from yw7lib.xml_indent import indent
 
 
 class Yw7File(File):
