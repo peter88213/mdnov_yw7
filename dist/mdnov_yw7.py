@@ -3,7 +3,7 @@
 
 usage: mdnov_yw7.py sourcefile
 
-Version 0.1.0
+Version 0.2.0
 Requires Python 3.6+
 Copyright (c) 2024 Peter Triesberger
 For further information see https://github.com/peter88213/mdnov_yw7
@@ -2581,6 +2581,8 @@ $Links$Desc
         self._keep_word_count()
 
     def write(self):
+        self._update_word_count_log()
+        self.adjust_section_types()
         super().write()
         self._get_timestamp()
 
@@ -4122,6 +4124,7 @@ class Yw7Converter():
         source.novel = Novel(tree=NvTree())
         source.read()
         target.novel = source.novel
+        target.wcLog = source.wcLog
         target.write()
         self.ui.set_info_how(f'File written: "{norm_path(targetPath)}".')
 
